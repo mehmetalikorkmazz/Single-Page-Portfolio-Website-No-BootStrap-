@@ -1,0 +1,39 @@
+@media (max-width: 768px) {
+  #header__home {
+    height: 70rem !important;
+  }
+
+  #main-nav {
+    flex-direction: column;
+    height: 120px;
+    padding: 20px;
+  }
+
+  .main-nav__items {
+    margin: auto !important;
+  }
+  #main-nav a {
+    padding: 10px;
+    margin: 0 3px;
+    font-size: 23px;
+  }
+
+  .column-1,
+  .col-2 {
+    font-size: 23px;
+  }
+
+  .header-content .column-3 {
+    width: 80vh;
+  }
+  #section-a .row {
+    flex-direction: column;
+  }
+  #section-a .row .cols .col-1 img {
+    width: 50vh;
+  }
+  #section-c .references p,
+  h3 {
+    font-size: 20px !important;
+  }
+}
